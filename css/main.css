@@ -1,0 +1,97 @@
+/* <!-- Utvecklad av Maja Afzelius 2023 --> */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(228, 228, 228);
+}
+main {
+    background-color: white;
+    box-shadow: 1px 1px 10px;
+    padding: 10px;
+}
+.post {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+@media screen and (min-width: 1025px) {
+    .post {
+        max-width: 50%;
+    }
+    #post {
+        margin: 20px 30%;
+    }
+    #cont {
+        display: grid;
+        grid-template-columns: 20% 70%;
+        padding: 10px;
+        margin: 10px;
+    }
+    #sidebar {
+        border: solid 1px black;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    #sidebar {
+        border: solid 1px black;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    #sidebar a {
+        display:flex;
+        border: solid 1px black;
+        margin: 20px;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:801px) and (max-width: 1024px) {
+    .post {
+        max-width: 50%;
+    }
+    #post {
+        margin: 20px 15%;
+    }
+    #cont {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 10px;
+        margin: 10px;
+    }
+    #sidebar {
+        border: solid 1px black;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    #sidebar a {
+        display:flex;
+        border: solid 1px black;
+        margin: 20px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:800px) {
+    #post {
+        margin: 20px 10%;
+    }
+    main {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+    }
+    #sidebar {
+        border: solid 1px black;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    #sidebar a {
+        display:inline-flex;
+        border: solid 1px black;
+        margin: 20px;
+        padding: 10px;
+    }
+}

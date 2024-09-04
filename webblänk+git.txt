@@ -1,0 +1,5 @@
+https://studenter.miun.se/~maaf2200/dt093g/projektet/index.php
+
+Använd myusername och mypassword för att logga in eller skapa ny användare
+
+git clone https://github.com/Webbutvecklings-programmet/projekt_vt23-Majaafzelius
